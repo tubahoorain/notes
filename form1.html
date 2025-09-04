@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is form</h1>
+    <form action="backend.php">
+        <div>
+            <label for="fname">First-Name:</label>
+            <input type="text" name="myfname" id="fname">
+        </div>
+        <br>
+       <div>
+            <label for="lname">Last-Name</label>
+            <input type="text" name="mylname" id="lname">
+        </div>
+        <br>
+        <div>
+            <label for="phone-number">Phone-number:</label>
+            <input type="number" name="myphonenumber" id="phone-number">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            Male<input type="radio" name="mygender" id="gender"> Female <input type="radio" name="mygender" id="gender"> other <input type="radio" name="mygender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="card">Card:</label>
+            <select name="mycard" id="card">
+                <option value="">--select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Master-card">Master-card</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are you eligible:</label>
+            <input type="checkbox" name="eligible" id="eligible">
+        </div>
+        <br>
+        <div>
+            <label for="address">Address</label>
+            <br>
+            <textarea name="myaddress" id="address" cols="60" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>
